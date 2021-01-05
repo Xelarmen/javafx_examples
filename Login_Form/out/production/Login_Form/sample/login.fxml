@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Button layoutX="196.0" layoutY="229.0" mnemonicParsing="false" onAction="#lgnbtn" prefHeight="46.0" prefWidth="247.0" text="Giriş Yap">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Button>
+                <TextField id="user" fx:id="user" layoutX="209.0" layoutY="108.0" prefHeight="25.0" prefWidth="223.0" />
+                <PasswordField fx:id="pass" layoutX="209.0" layoutY="175.0" prefHeight="25.0" prefWidth="223.0" />
+                <Label layoutX="253.0" layoutY="72.0" text="Kullanıcı Adı" textAlignment="CENTER">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Label>
+                <Label layoutX="286.0" layoutY="135.0" text="Parola" textAlignment="CENTER">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Label>
+                <Label layoutX="539.0" layoutY="369.0" text="Abdulkadir Kaya" textAlignment="CENTER" />
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="back" prefHeight="340.0" prefWidth="443.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="336.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Button layoutX="157.0" layoutY="176.0" mnemonicParsing="false" onAction="#tahminet" text="TAHMİN">
+                    <font>
+                        <Font size="28.0" />
+                    </font>
+                </Button>
+                <TextField fx:id="tahminkutusu" layoutX="223.0" layoutY="110.0" />
+                <Label layoutX="86.0" layoutY="105.0" text="Tahmin Et!">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>
